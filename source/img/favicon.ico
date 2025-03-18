@@ -1,0 +1,666 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Bloop on ETH</title>
+
+    <link rel="stylesheet" href="source/css/main.css">
+    <link rel="stylesheet" href="source/css/media.css">
+
+    <link rel="shortcut icon" href="source/img/favicon.ico" type="image/x-icon">
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Bagel+Fat+One&display=swap" rel="stylesheet">
+
+    <link rel="icon" type="image/png" sizes="16x16" href="source/img/favicon/favicon-16x16.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="source/img/favicon/favicon-32x32.png">
+    <link rel="apple-touch-icon" href="source/img/favicon/apple-touch-icon.png">
+    <link rel="manifest" href="source/img/favicon/site.webmanifest">
+
+    <link rel="shortcut icon" href="source/img/favicon/favicon.ico">
+
+    <link rel="icon" type="image/png" sizes="192x192" href="source/img/favicon/android-chrome-192x192.png">
+    <link rel="icon" type="image/png" sizes="512x512" href="source/img/favicon/android-chrome-512x512.png">
+
+    <!-- Twitter conversion tracking base code -->
+    <script>
+        !function(e,t,n,s,u,a){e.twq||(s=e.twq=function(){s.exe?s.exe.apply(s,arguments):s.queue.push(arguments);
+        },s.version='1.1',s.queue=[],u=t.createElement(n),u.async=!0,u.src='https://static.ads-twitter.com/uwt.js',
+            a=t.getElementsByTagName(n)[0],a.parentNode.insertBefore(u,a))}(window,document,'script');
+        twq('config','ons03');
+    </script>
+    <!-- End Twitter conversion tracking base code -->
+
+</head>
+
+<body>
+    <div class="banner_bloop_a" id="Home">
+        <img src="source/img/banner_bloop_a.jpg" alt="">
+    </div>
+    <header>
+        <div class="header_container">
+            <a href="" class="logo">
+                <img src="source/img/bloop_logo.svg" alt="">
+            </a>
+            <nav>
+                <a href="#Home">Home</a>
+                <a href="#About">About</a>
+                <a href="#Lore">Lore</a>
+                <a href="#Tokenomics">Tokenomics</a>
+                <a href="#HowtoBuy">How to Buy</a>
+                <a href="#Roadmap">Roadmap</a>
+                <a href="#FAQs">FAQs</a>
+            </nav>
+            <div class="right_action">
+                <a href="https://app.uniswap.org/swap?outputCurrency=0x2156CD781c5e77323D92A4487a0eC45F128e165E&chain=ethereum" class="link_st_a primary_btn_a_img">
+                    <div>
+                        <img src="source/img/Uniswap.png" alt="Uniswap icon">
+                    </div>
+                    <span>Buy $BLOOP</span>
+                </a>
+                <button class="menu_mobile_btn"></button>
+            </div>
+        </div>
+    </header>
+    <div class="page_wrapper">
+
+        <div class="mobile_navigation ">
+            <div class="m_nav">
+                <a href="#Home">Home</a>
+                <a href="#About">About</a>
+                <a href="#Lore">Lore</a>
+                <a href="#Tokenomics">Tokenomics</a>
+                <a href="#HowtoBuy">How to Buy</a>
+                <a href="#Roadmap">Roadmap</a>
+                <a href="#FAQs">FAQs</a>
+            </div>
+            <a href="https://app.uniswap.org/swap?outputCurrency=0x2156CD781c5e77323D92A4487a0eC45F128e165E&chain=ethereum" class="link_st_a primary_btn_a_img">
+                <div>
+                    <img src="source/img/Uniswap.png" alt="Uniswap icon">
+                </div>
+                <span>Buy $BLOOP</span>
+            </a>
+        </div>
+
+        <section class="sn_hero">
+            <div class="container">
+                <div class="sn_hero_content">
+                    <h1>Mischief <br> Is Now On-Chain</h1>
+                    <p>Where chaos meets crypto in a fuzzy, red package!</p>
+                    <div class="row_btn">
+                        <a href="https://app.uniswap.org/swap?outputCurrency=0x2156CD781c5e77323D92A4487a0eC45F128e165E&chain=ethereum" class="primary_btn_a primary_btn_a_img primary_btn_a_img-item">
+                            <div>
+                                <img src="source/img/Uniswap.png" alt="Uniswap icon">
+                            </div>
+                            <span>Buy $BLOOP</span>
+                        </a>
+                        <a href="https://www.dextools.io/app/en/ether/pair-explorer/0x0b943e458366df3276ac3a78d8f5f0805f881b08?t=1726236291776" class="secondary_btn_a primary_btn_a_img">
+                            <div>
+                                <img src="source/img/Dextools.png" alt="Dextools icon">
+                            </div>
+                            <span>View Chart</span>
+                        </a>
+                    </div>
+                    <img src="source/img/hero_bloop_character.png" class="hero_char" alt="">
+                </div>
+            </div>
+        </section>
+
+        <div class="moving_line_scroll"></div>
+
+        <section class="sn_about" >
+            <div class="anchor" id="About"></div>
+            <div class="container">
+                <div class="sn_about_content scroll_effect">
+                    <div class="header">
+                        <img src="source/img/avatar_bloop_a.jpg" alt="" class="avatar">
+                        <div class="social_link_items">
+                            <a href="https://x.com/bloop_eth?s=21" target="_blank" class="social_link">
+                                <img src="source/img/x_social_icon.svg" alt="">
+                            </a>
+                            <a href="https://t.me/blooponeth" target="_blank" class="social_link">
+                                <img src="source/img/tg_social_icon.svg" alt="">
+                            </a>
+                        </div>
+                    </div>
+                    <h2 class="scroll_effect">Eth's first chaos agent with a heart of gold and a brain full of glitter.</h2>
+                    <p class="scroll_effect">Bloop isn't your average crypto mascot. He's a quantum anomaly of joy, a walking paradox of
+                        financial wisdom and adorable confusion. <br><br> Join our lovable troublemaker on his mission
+                        to decentralize happiness.</p>
+                </div>
+            </div>
+        </section>
+
+        <section class="sn_lore">
+            <div class="anchor" id="Lore"></div>
+            <img src="source/img/44147c798729b5ca368a11f700e81b8b.gif" alt="" class="lore_img_a">
+            <img src="source/img/cfbe6b2da86be5640b6a8f6b39018231.gif" alt="" class="lore_img_b">
+            <div class="container">
+                <div class="sn_lore_content">
+                    <h2 class="scroll_effect">The Bloop Saga</h2>
+                    <div class="slider_container scroll_effect">
+                        <button class="arrow arrow_left"></button>
+
+                        <div class="content">
+                            <img src="source/img/avatar_bloop_b.jpg" alt="" class="avatar">
+                            <p class="slider_text" id="SliderText">In the annals of crypto lore, few tales are as
+                                improbable — or as consequential — as the Genesis of Bloop. Our story begins not with a
+                                whitepaper, but with a woeful misunderstanding of wallet security.</p>
+                        </div>
+
+                        <button class="arrow arrow_right"></button>
+                        <div class="indicators">
+                            <div class="dot active" data-index="0"></div>
+                            <div class="dot" data-index="1"></div>
+                            <div class="dot" data-index="2"></div>
+                            <div class="dot" data-index="3"></div>
+                            <div class="dot" data-index="4"></div>
+                            <div class="dot" data-index="5"></div>
+                            <div class="dot" data-index="6"></div>
+                            <div class="dot" data-index="7"></div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <div class="moving_comix_scroll">
+            <div class="moving_comix_content">
+                <div class="item">
+                    <img src="source/img/91c4329c7a9a58e74a813b46b11753fc.gif" alt="">
+                    <img src="source/img/1626ae5de2c2eda3d1177b2b0412b159.gif" alt="">
+                    <img src="source/img/7c24a2f45bcc09dbf5aa0d79c40dc3c8.gif" alt="">
+                </div>
+                <div class="item">
+                    <img src="source/img/9797186629fa9b38cc5e0246c4ad5b38.gif" alt="">
+                    <img src="source/img/8204aa432eabd202f11b45862d0c8d9f.gif" alt="">
+                    <img src="source/img/91c4329c7a9a58e74a813b46b11753fc.gif" alt="">
+                    <img src="source/img/1626ae5de2c2eda3d1177b2b0412b159.gif" alt="">
+                    <img src="source/img/7c24a2f45bcc09dbf5aa0d79c40dc3c8.gif" alt="">
+                </div>
+                <div class="item">
+                    <img src="source/img/9797186629fa9b38cc5e0246c4ad5b38.gif" alt="">
+                    <img src="source/img/8204aa432eabd202f11b45862d0c8d9f.gif" alt="">
+                    <img src="source/img/91c4329c7a9a58e74a813b46b11753fc.gif" alt="">
+                    <img src="source/img/1626ae5de2c2eda3d1177b2b0412b159.gif" alt="">
+                    <img src="source/img/7c24a2f45bcc09dbf5aa0d79c40dc3c8.gif" alt="">
+                </div>
+            </div>
+        </div>
+
+        <section class="sn_tokenomics">
+            <div class="anchor" id="Tokenomics"></div>
+            <img src="source/img/moon.png" alt="" class="moon">
+            <img src="source/img/3e562742912271e3391dac503d80ed1d.png" alt="" class="rocket_man">
+            <div class="container">
+                <div class="sn_tokenomics_content">
+                    <h2 class="scroll_effect">Bloop-onomics</h2>
+                    <h3 class="scroll_effect">100% fair launch <br>
+                        LP Burned <br>
+                        1 Billion Supply</h3>
+                    <div class="copy_container scroll_effect">
+                        <div class="copy_content">
+                            <p id="CopyText">0x2156CD781c5e77323D92A4487a0eC45F128e165E</p>
+                        </div>
+                        <button id="CopyButton" class="copy_button"></button>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section class="sn_how_to_buy">
+            <div class="anchor" id="HowtoBuy"></div>
+            <div class="container">
+                <div class="sn_how_to_buy_content">
+                    <div class="header scroll_effect">
+                        <h2>How to Catch Your $BLOOP?</h2>
+                        <a href="https://app.uniswap.org/swap?outputCurrency=0x2156CD781c5e77323D92A4487a0eC45F128e165E&chain=ethereum" class="primary_btn_a primary_btn_a_img">
+                            <div>
+                                <img src="source/img/Uniswap.png" alt="Uniswap icon">
+                            </div>
+                            <span>Buy $BLOOP</span>
+                        </a>
+
+                    </div>
+                    <div class="custom_slider scroll_effect">
+                        <div class="custom_slide active" id="custom-slide-1">
+                            <h2>STEP 1:</h2>
+                            <h3>Setup a wallet</h3>
+                            <p>Careful not to swallow it <br> like Bloop did!</p>
+                            <div class="custom_pagination">
+                                <span class="custom_dot active" data-index="0"></span>
+                                <span class="custom_dot" data-index="1"></span>
+                                <span class="custom_dot" data-index="2"></span>
+                                <span class="custom_dot" data-index="3"></span>
+                                <span class="custom_dot" data-index="4"></span>
+                            </div>
+                            <img src="source/img/bloop_step_1.png" alt="" class="step">
+                        </div>
+                        <div class="custom_slide" id="custom-slide-2">
+                            <h2>STEP 2:</h2>
+                            <h3>Buy some ETH</h3>
+                            <p>Bloop thinks it's magic internet <br> money, and he's not entirely wrong.</p>
+                            <div class="custom_pagination">
+                                <span class="custom_dot" data-index="0"></span>
+                                <span class="custom_dot active" data-index="1"></span>
+                                <span class="custom_dot" data-index="2"></span>
+                                <span class="custom_dot" data-index="3"></span>
+                                <span class="custom_dot" data-index="4"></span>
+                            </div>
+                            <img src="source/img/bloop_step_2.png" alt="" class="step">
+                        </div>
+                        <div class="custom_slide" id="custom-slide-3">
+                            <h2>STEP 3:</h2>
+                            <h3>Head to UniSwap</h3>
+                            <p>Bloop calls it the "swirly <br> token water slide"</p>
+                            <div class="custom_pagination">
+                                <span class="custom_dot" data-index="0"></span>
+                                <span class="custom_dot" data-index="1"></span>
+                                <span class="custom_dot active" data-index="2"></span>
+                                <span class="custom_dot" data-index="3"></span>
+                                <span class="custom_dot" data-index="4"></span>
+                            </div>
+                            <img src="source/img/bloop_step_3.png" alt="" class="step">
+                        </div>
+                        <div class="custom_slide" id="custom-slide-4">
+                            <h2>STEP 4:</h2>
+                            <h3>Connect your wallet</h3>
+                            <p>Careful not to swallow it <br> like Bloop did!</p>
+                            <div class="custom_pagination">
+                                <span class="custom_dot" data-index="0"></span>
+                                <span class="custom_dot" data-index="1"></span>
+                                <span class="custom_dot" data-index="2"></span>
+                                <span class="custom_dot active" data-index="3"></span>
+                                <span class="custom_dot" data-index="4"></span>
+                            </div>
+                            <img src="source/img/bloop_step_4.png" alt="" class="step">
+                        </div>
+                        <div class="custom_slide" id="custom-slide-5">
+                            <h2>STEP 5:</h2>
+                            <h3>Swap ETH for $BLOOP</h3>
+                            <p>Congratulations, you're now part of <br> the chaotic good crypto revolution!</p>
+                            <div class="custom_pagination">
+                                <span class="custom_dot" data-index="0"></span>
+                                <span class="custom_dot" data-index="1"></span>
+                                <span class="custom_dot" data-index="2"></span>
+                                <span class="custom_dot" data-index="3"></span>
+                                <span class="custom_dot active" data-index="4"></span>
+                            </div>
+                            <img src="source/img/bloop_step_5.png" alt="" class="step">
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section class="sn_social">
+            <div class="container">
+                <div class="sn_social_content">
+                    <div class="content">
+                        <h3>Join The community</h3>
+                        <div class="social_media_link">
+                            <a href=""><img src="source/img/x_social_icon.svg" alt=""></a>
+                            <a href=""><img src="source/img/tg_social_icon.svg" alt=""></a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+
+        <section class="sn_roadmap" >
+            <div class="anchor" id="Roadmap"></div>
+            <div class="container">
+                <div class="sn_roadmap_content">
+                    <h2 class="scroll_effect"><span>Bloop's Chaotic Good</span><br> Adventure Map</h2>
+                    <div class="roadmap_items">
+                        <div class="item">
+                            <div class="header_img scroll_effect">
+                                <h3>1. The Great Bloop Escape</h3>
+                                <div class="img_box">
+                                    <img src="source/img/roadmap_bloop_a.png" alt="">
+                                </div>
+                            </div>
+                            <div class="description ">
+                                <p>- Launch on Bulla.fun (Bloop thinks it's a giant bounce house for tokens)</p>
+                                <p>- Fill the Bonding Curve (Bloop's favorite slide at the blockchain playground)</p>
+                                <p>- Secure listing on 1 DEX (Bloop calls it making new friends at the token party)</p>
+                                <p>- Achieve 5,000 Bloop Buddies (Holders)</p>
+                            </div>
+                        </div>
+                        <div class="item">
+                            <div class="description ">
+                                <p>- Reach 20,000 Bloop Enthusiasts (More Holders!)</p>
+                                <p>- Launch the Great Meme Madness Campaign (Turning giggles into viral gold)</p>
+                                <p>- Expand social media presence (Teaching Bloop the art of the tweet... this should be
+                                    interesting)</p>
+                                <p>- Get listed on CoinGecko (Bloop thinks it's a lizard petting zoo)</p>
+                            </div>
+                            <div class="header_img scroll_effect">
+                                <h3>2. Bloop's Meme Dream</h3>
+                                <div class="img_box">
+                                    <img src="source/img/roadmap_bloop_b.png" alt="">
+                                </div>
+                            </div>
+                        </div>
+                        <div class="item">
+                            <div class="header_img scroll_effect">
+                                <h3>3. The Bloopening Begins</h3>
+                                <div class="img_box">
+                                    <img src="source/img/roadmap_bloop_c.png" alt="">
+                                </div>
+                            </div>
+                            <div class="description ">
+                                <p>- Hit 50,000 Certified Chaos Agents (You guessed it, even more Holders!)</p>
+                                <p>- Initiate global marketing blitz (Spreading confusion... err, awareness worldwide)
+                                </p>
+                                <p>- Secure major CEX listing (Bloop's big debut on the grown-up exchanges)</p>
+                                <a href="https://app.uniswap.org/swap?outputCurrency=0x2156CD781c5e77323D92A4487a0eC45F128e165E&chain=ethereum" class="primary_btn_a primary_btn_a_img">
+                                    <div>
+                                        <img src="source/img/Uniswap.png" alt="Uniswap icon">
+                                    </div>
+                                    <span>$BLOOP me in</span>
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <div class="moving_line_scroll"></div>
+
+        <section class="sn_fuq">
+            <div class="anchor" id="FAQs"></div>
+            <div class="container">
+                <div class="sn_fuq_content">
+                    <h2 class="scroll_effect">Frequently Asked Bloops</h2>
+                    <div class="question_items">
+                        <div class="question_item active scroll_effect">
+                            <div class="question_btn">
+                                <p>What is a Bloop?</p>
+                                <button class="faq_btn">
+                                </button>
+                            </div>
+                            <p class="response">A Bloop is not just a what, it's a who, a why, and sometimes a where! Bloop is the embodiment of crypto chaos and cuddly confusion!</p>
+                        </div>
+                        <div class="question_item scroll_effect">
+                            <div class="question_btn">
+                                <p>Is $BLOOP a serious investment?</p>
+                                <button class="faq_btn">
+                                </button>
+                            </div>
+                            <p class="response">As serious as a fuzzy red creature trying to hug a blockchain! While we're here for fun, always invest responsibly and never more than you can afford to lose.</p>
+                        </div>
+                        <div class="question_item scroll_effect">
+                            <div class="question_btn">
+                                <p>What's "The Bloopening"?</p>
+                                <button class="faq_btn">
+                                </button>
+                            </div>
+                            <p class="response">It's the culmination of Bloop's mission – a prophesied event where joy overtakes the entire crypto space. Think of it as a bull run, but for happiness!</p>
+                        </div>
+                        <div class="question_item scroll_effect">
+                            <div class="question_btn">
+                                <p>How do I join the Bloop community?</p>
+                                <button class="faq_btn">
+                                </button>
+                            </div>
+                            <p class="response">Just buy some $BLOOP and hold on tight! You can also join us on Twitter, Telegram, and Discord for daily doses of chaos and crypto cuteness.</p>
+                        </div>
+                        <div class="question_item scroll_effect">
+                            <div class="question_btn">
+                                <p>What's next on the Bloop roadmap?</p>
+                                <button class="faq_btn">
+                                </button>
+                            </div>
+                            <p class="response">Bloop's not really sure, but he's very excited about it! Stay tuned for more misadventures, random acts of kindness, and possibly some accidental technological breakthroughs.</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <footer>
+            <img src="source/img/footer_bloop.png" alt="" class="footer_bloop">
+            <div class="container">
+                <div class="sn_footer_content">
+                    <div class="navigation">
+                        <a href="#Home">Home</a>
+                        <a href="#About">About</a>
+                        <a href="#Lore">Lore</a>
+                        <a href="#Tokenomics">Tokenomics</a>
+                        <a href="#HowtoBuy">How to Buy</a>
+                        <a href="#Roadmap">Roadmap</a>
+                        <a href="#FAQs">FAQs</a>
+                    </div>
+                    <div class="social_media">
+                        <p class="title">Follow Us</p>
+                        <div class="social_media_link">
+                            <a href="https://x.com/bloop_eth?s=21" target="_blank"><img src="source/img/x_social_icon_w.svg" alt=""></a>
+                            <a href="https://t.me/blooponeth" target="_blank"><img src="source/img/tg_social_icon_w.svg" alt=""></a>
+
+                        </div>
+                    </div>
+                    <div class="disclaimer">
+                        <p class="title">Disclaimer:</p>
+                        <p class="description">This website is for entertainment only. Meme coins are risky, so DYOR and
+                            only invest what you can afford to lose.</p>
+                    </div>
+                    <div class="btn_animated">
+                        <a href="https://app.uniswap.org/swap?outputCurrency=0x2156CD781c5e77323D92A4487a0eC45F128e165E&chain=ethereum" class="primary_btn_a primary_btn_a_img">
+                            <div>
+                                <img src="source/img/Uniswap.png" alt="Uniswap icon">
+                            </div>
+                            <span>GET $BLOOP TODAY</span>
+                        </a>
+                    </div>
+                    <p class="rights">© 2024 Bloop Coin. All rights blooped.</p>
+                </div>
+            </div>
+        </footer>
+
+    </div>
+
+</body>
+
+<script>
+    const sliderText = document.getElementById('SliderText');
+    const texts = [
+        "In the annals of crypto lore, few tales are as improbable — or as consequential — as the Genesis of Bloop. Our story begins not with a whitepaper, but with a woeful misunderstanding of wallet security.",
+        "Bloop, a creature of insatiable curiosity and questionable judgment, encountered a hardware wallet. Mistaking it for some avant-garde confectionery, he promptly swallowed it whole. What followed was not indigestion, but innovation.",
+        "For seven days, Bloop became an unwitting oracle, his hiccups sending ripples through the blockchain. Each involuntary spasm broadcasted a transaction, a random redistribution of digital wealth that would make even the most zealous DeFi protocols blush.",
+        "Obscure altcoins found themselves in long-dormant wallets. Smart contracts executed in patterns that looked suspiciously like dance choreography. In one particularly absurd instance, a DAO accidentally voted to rename itself 'Bloop's Benevolent Blockchain Bonanza.",
+        "This chaos caught the eye of the enigmatic 'Crypto Spirits,' the supposed architects of digital serendipity. In Bloop's digestive dilemma, they saw potential—a means to inject whimsy into the often-sterile world of cryptocurrency.",
+        "They anointed Bloop as their agent of joyous disruption, tasking him with a mission both grand and absurd: to trigger 'The Bloopening,' a prophesied event that would synchronize every blockchain in a harmonic convergence of happiness.",
+        "And so, Bloop set forth, armed with boundless enthusiasm and a comically inaccurate understanding of blockchain basics. His ability to 'bloop'—spontaneously teleport in excitement—often lands him in the right place at the wrong time, or the wrong place at the right time.",
+        "Will Bloop successfully create his giant, invisible chain of joy? Can he navigate the complexities of crypto without accidentally upending the entire system? Join the $BLOOP community and witness the most delightfully disruptive force in crypto."
+    ];
+
+    const dots = document.querySelectorAll('.dot');
+    let currentIndex = 0;
+
+    function updateSlider(index) {
+        sliderText.innerText = texts[index];
+        dots.forEach(dot => dot.classList.remove('active'));
+        dots[index].classList.add('active');
+    }
+
+    document.querySelector('.arrow_left').addEventListener('click', () => {
+        currentIndex = (currentIndex === 0) ? texts.length - 1 : currentIndex - 1;
+        updateSlider(currentIndex);
+    });
+
+    document.querySelector('.arrow_right').addEventListener('click', () => {
+        currentIndex = (currentIndex === texts.length - 1) ? 0 : currentIndex + 1;
+        updateSlider(currentIndex);
+    });
+
+    dots.forEach(dot => {
+        dot.addEventListener('click', () => {
+            currentIndex = parseInt(dot.getAttribute('data-index'));
+            updateSlider(currentIndex);
+        });
+    });
+</script>
+
+<script>
+    window.addEventListener('scroll', function () {
+        const comixScroll = document.querySelector('.moving_comix_scroll');
+        const comixContent = document.querySelector('.moving_comix_content');
+
+        const scrollTop = window.scrollY;
+        const windowHeight = window.innerHeight;
+        const comixScrollTop = comixScroll.getBoundingClientRect().top + scrollTop;
+        const comixHeight = comixScroll.offsetHeight;
+
+        if (scrollTop + windowHeight > comixScrollTop && scrollTop < comixScrollTop + comixHeight) {
+            const scrollPercentage = (scrollTop + windowHeight - comixScrollTop) / (windowHeight + comixHeight);
+
+            const maxTranslate = comixContent.scrollWidth - comixScroll.offsetWidth;
+            const translateX = Math.min(maxTranslate, maxTranslate * scrollPercentage);
+
+            comixContent.style.transform = `translateX(-${translateX}px)`;
+        }
+    });
+</script>
+
+<script>
+    document.getElementById('CopyButton').addEventListener('click', function () {
+        const copyText = document.getElementById('CopyText').innerText;
+
+        navigator.clipboard.writeText(copyText).then(function () {
+            const copyButton = document.getElementById('CopyButton');
+
+            copyButton.classList.add('active');
+
+            setTimeout(function () {
+                copyButton.classList.remove('active');
+            }, 2000);
+        }).catch(function (error) {
+            console.error('Error when copying text', error);
+        });
+    });
+</script>
+
+<script>
+    let customCurrentIndex = 0;
+    const customSlides = document.querySelectorAll('.custom_slide');
+    const customDots = document.querySelectorAll('.custom_dot');
+
+    function showCustomSlide(index) {
+        customSlides.forEach((slide, i) => {
+            slide.classList.remove('active');
+            if (customDots[i]) {
+                customDots[i].classList.remove('active');
+            }
+        });
+        customSlides[index].classList.add('active');
+        if (customDots[index]) {
+            customDots[index].classList.add('active');
+        }
+    }
+
+    function nextCustomSlide() {
+        customCurrentIndex = (customCurrentIndex + 1) % customSlides.length;
+        showCustomSlide(customCurrentIndex);
+    }
+
+    let customSlideInterval = setInterval(nextCustomSlide, 4000);
+
+    customDots.forEach(dot => {
+        dot.addEventListener('click', function () {
+            clearInterval(customSlideInterval);
+
+            const index = parseInt(this.getAttribute('data-index'));
+            customCurrentIndex = index;
+            showCustomSlide(customCurrentIndex);
+
+            customSlideInterval = setInterval(nextCustomSlide, 5000);
+        });
+    });
+
+    showCustomSlide(customCurrentIndex);
+</script>
+
+<script>
+    document.querySelectorAll('.faq_btn').forEach(button => {
+        button.addEventListener('click', () => {
+            const questionItem = button.closest('.question_item');
+
+            const isActive = questionItem.classList.contains('active');
+
+            document.querySelectorAll('.question_item').forEach(item => {
+                item.classList.remove('active');
+            });
+
+            if (!isActive) {
+                questionItem.classList.add('active');
+            }
+        });
+    });
+</script>
+
+<script>
+    document.addEventListener("DOMContentLoaded", function () {
+        const observerOptions = {
+            root: null,
+            rootMargin: '0px',
+            threshold: 0.1
+        };
+
+        const observerCallback = (entries) => {
+            entries.forEach(entry => {
+                if (entry.isIntersecting) {
+                    entry.target.classList.add('effect_active');
+                }
+            });
+        };
+
+        const observer = new IntersectionObserver(observerCallback, observerOptions);
+        const scrollEffectElements = document.querySelectorAll('.scroll_effect');
+        scrollEffectElements.forEach(element => observer.observe(element));
+    });
+</script>
+
+<script>
+    document.addEventListener('DOMContentLoaded', function () {
+        const menuButton = document.querySelector('.menu_mobile_btn');
+        const mobileNav = document.querySelector('.mobile_navigation');
+        const body = document.body;
+
+        function toggleActive() {
+            menuButton.classList.toggle('active');
+            mobileNav.classList.toggle('active');
+            body.classList.toggle('lock_scroll');
+        }
+
+        menuButton.addEventListener('click', toggleActive);
+
+        mobileNav.querySelectorAll('a').forEach(function (link) {
+            link.addEventListener('click', function () {
+                menuButton.classList.remove('active');
+                mobileNav.classList.remove('active');
+                body.classList.remove('lock_scroll');
+            });
+        });
+    });
+</script>
+
+<script>
+    window.addEventListener('scroll', function() {
+    const header = document.querySelector('header');
+
+    if (window.scrollY > 150) {
+        header.classList.add('active');
+    } else {
+        header.classList.remove('active');
+    }
+});
+
+</script>
+
+</html>
